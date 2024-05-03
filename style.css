@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+
+.container {
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 100px;
+}
+
+
+img {
+    width: 25%;
+}
+
+.title-text {
+    color: rgb(43, 255, 0);
+    font-size: 40px;
+}
+
+
+.options {
+    background-color: rgb(43, 255, 0);
+    margin: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+
+.monopattino {
+    display: flex;
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+.scelta {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.distance {
+    display: flex;
+    color: rgba(255, 255, 255, 0.897);
+    text-align: left;
+
+}
+
+
+.carica1 {
+    background-color: rgb(214, 193, 3);
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+.carica2 {
+    background-color: rgb(1, 156, 1);
+    width: 450px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+
+.carica3 {
+    background-color: red;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+}
